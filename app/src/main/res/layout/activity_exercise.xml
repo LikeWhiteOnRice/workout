@@ -48,11 +48,19 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="50dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/next_exercise"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="25dp" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next Exercise"
-        android:id="@+id/next_button"
+        android:text="Pause"
+        android:id="@+id/button4"
         android:layout_gravity="center_horizontal" />
 
 </LinearLayout>

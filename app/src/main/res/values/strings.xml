@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">10 Minute Abs</string>
     <string name="workout_string">Workout</string>
+    <string name="next_exercise">Next Exercise: </string>
 </resources>
