@@ -164,7 +164,7 @@ public class ExerciseActivity extends AppCompatActivity{
             mNextExercise.setText("");
         }
         mStartTime = System.currentTimeMillis();
-        timerHandler.postDelayed(timerRunnable, 0);
+        timerHandler.postDelayed(timerRunnable, 50);
     }
 
     @Override
