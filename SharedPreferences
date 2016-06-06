@@ -1,0 +1,17 @@
+
+//Add AlertDialog in MainActivity to get numOfExercises, exerciseLength, breakLength
+//call saveText on saveButtonPress
+//do nothing on cancelBtutonPress
+    public void saveText() {
+        String text = mEditText.getText().toString();
+
+        SharedPreferences settings = getSharedPreferences("MyPreferencesFile", 0); // Opening SharedPreferences
+        SharedPreferences.Editor editor = settings.edit(); // Opening editor for SharedPreferences
+        editor.putString("exampleName", text);
+        editor.apply();
+    }
+    
+//in ExerciseActivity, generate list from numOfExercises, create timer based off corresponding length
+
+        SharedPreferences settings = getSharedPreferences("MyPreferencesFile", 0); // Again opening SharedPreferences
+        String text = settings.getString("exampleName", "");
